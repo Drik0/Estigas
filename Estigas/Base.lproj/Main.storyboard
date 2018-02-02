@@ -178,15 +178,6 @@ RXN0aWdhcyADwqkgMjAxNw
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DKP-zW-MyF" id="S9H-ms-WQr">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O3-Ey-Vfe">
-                                                    <rect key="frame" x="259" y="10" width="22" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <connections>
-                                                        <segue destination="4pa-2C-bf6" kind="show" id="EQc-sv-zMo"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -201,10 +192,13 @@ RXN0aWdhcyADwqkgMjAxNw
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fSS-cX-6YX"/>
                     </view>
+                    <connections>
+                        <segue destination="4pa-2C-bf6" kind="show" id="blM-0d-Zs1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GR8-yq-Ikw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="536" y="987"/>
+            <point key="canvasLocation" x="534.375" y="986.61971830985919"/>
         </scene>
         <!--Menu-->
         <scene sceneID="lMh-sg-ufS">
@@ -221,7 +215,7 @@ RXN0aWdhcyADwqkgMjAxNw
                                         <rect key="frame" x="12" y="40" width="296" height="360"/>
                                         <color key="backgroundColor" red="0.84898835419999996" green="0.88890391589999995" blue="0.8526110053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1R-Se-wi7">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na tua casa tem um rato que quando não come faz rali nas panelas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1R-Se-wi7">
                                         <rect key="frame" x="56" y="29" width="208" height="341"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <nil key="textColor"/>
@@ -1147,7 +1141,7 @@ RXN0aWdhcyADwqkgMjAxNw
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZoU-1s-fCd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="534.375" y="1803.1690140845071"/>
+            <point key="canvasLocation" x="536" y="1680"/>
         </scene>
         <!--ManualUpdate-->
         <scene sceneID="QWb-a0-cNT">
@@ -1508,7 +1502,7 @@ RXN0aWdhcyADwqkgMjAxNw
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98h-MK-0yw" userLabel="Text Container">
                                 <rect key="frame" x="12" y="219" width="296" height="208"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Escreva a estiga aqui" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PMn-zK-s5B">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Escreva a  sua mensagem aqui" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PMn-zK-s5B">
                                         <rect key="frame" x="8" y="8" width="280" height="17"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
